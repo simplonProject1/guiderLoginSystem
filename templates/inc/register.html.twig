@@ -1,0 +1,61 @@
+<!-- Modal inscription-->
+<div class="modal fade" id="modalinscription" tabindex="-1" role="dialog" aria-labelledby="modalinscription" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Inscription gratuite !</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" class="form-control" id="name" placeholder="Mon nom">
+                        </div>
+                        <div class="form-group">
+                            <label for="surname">Prénom</label>
+                            <input type="text" class="form-control" id="surname" placeholder="Mon prénom">
+                        </div>
+                        <div class="form-group">
+                            <label for="mail">Adresse email</label>
+                            <input type="email" class="form-control" id="mail" placeholder="email@exemple.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="psw">Mot de passe</label>
+                            <input type="password" class="form-control" id="psw" placeholder="Mot de passe">
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <button onclick="window.location.href='accueil.html'" class="btn btn-primary float-right mb-3">Se connecter</button>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="nom">Nom</label>
+                            <input type="text" class="form-control" id="nom" placeholder="Mon nom">
+                        </div>
+                        <div class="form-group">
+                            <label for="prenom">Prénom</label>
+                            <input type="text" class="form-control" id="prenom" placeholder="Mon prénom">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Adresse email</label>
+                            <input type="email" class="form-control" id="email" placeholder="email@exemple.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="mdp">Mot de passe</label>
+                            <input type="password" class="form-control" id="mdp" placeholder="Mot de passe">
+                        </div>
+                        <div class="dropdown-divider">
+                            <button onclick="window.location.href='accueil.html'" class="btn btn-primary">Se connecter</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- fin modal  -->
